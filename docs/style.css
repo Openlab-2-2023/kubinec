@@ -1,15 +1,16 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 h1{
     text-align: center;
-    color: white;
+    color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2{
-color: white;
+color: red;
 text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 img{
     height: 400px;
