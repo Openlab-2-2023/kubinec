@@ -1,12 +1,23 @@
 body{
-    background-color: gray;
+    background-color: black;
 }
 h1{
-    color: blue;
+    text-align: center;
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2{
-color: aqua;
-
+color: white;
+text-align: center;
+}
+img{
+    height: 400px;
+    width: 600px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
