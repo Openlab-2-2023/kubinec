@@ -5,26 +5,33 @@ body{
     height: 400px;
   }
   img:nth-child(2){
-    width: 2200px;
+    width: 3000px;
+    height: 1500px;
     margin-top: 700px;
     position:fixed ;
     z-index: -1;
     background-size: cover;
-    filter: brightness(50%);  
+    filter: brightness(50%),blur(7);  
     background-repeat: no-repeat;
-    
+    background-position: center;
     overflow: hidden;
                     
 }
-     
+    
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 p{
-    font-size: 25px;
+    font-size: 35px;
     color: black;
+    text-shadow:1px 1px 0 white ,
+    -1px 1px 0 white,
+    -1px -1px 0 white,
+    1px -1px 0 white;
+    line-height: 60px;
+    letter-spacing: 3px;
     margin-top: 50px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
